@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "8662c315-14d6-4d24-a446-3b1fecae0f48",
+		"name": "Рекламные площадки тестовое задание",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33343803"
+	},
+	"item": [
+		{
+			"name": "Поиск по локации",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5111/platforms?location=/ru/svrd/revda ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5111",
+					"path": [
+						"platforms"
+					],
+					"query": [
+						{
+							"key": "location",
+							"value": "/ru/svrd/revda "
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Загрузка файла",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Названия всех площадок",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
